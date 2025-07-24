@@ -1441,4 +1441,12 @@
                 'xpath': "//div[@class='thrv-leads-form-box tve_no_drag tve_no_icons thrv_wrapper tve_editor_main_content thrv-leads-in-content tve_empty_dropzone']//button[@type='submit']",
                 'action': 'click'}
         ]
+    },
+    "Demdaco Newsletter": {
+        "url": 'https://www.demdaco.com/',
+        "steps": [
+            {'xpath': "//input[@id='SubmitFooter']", 'action': 'send_keys', 'value': 'email'},
+            {'xpath': "//input[@name='submit1']", 'action': 'click'}
+        ]
     }
+}
