@@ -1,18 +1,4 @@
 {
-    "HAZEMM": {
-        "url": "https://google.com/?ref=inboxreads",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Enter Email Address']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@class='joinus-email-btn']",
-                "action": "click"
-            }
-        ]
-    },
     "WordDaily": {
         "url": "https://worddaily.com/?ref=inboxreads",
         "steps": [
