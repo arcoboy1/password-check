@@ -1,5 +1,66 @@
 {
-    
+    "WordDaily": {
+        "url": "https://worddaily.com/?ref=inboxreads",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder='Enter Email Address']",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@class='joinus-email-btn']",
+                "action": "click"
+            }
+        ]
+    },
+    "TheFP": {
+        "url": "https://www.thefp.com/subscribe?utm_source=menu&simple=true&next=https%3A%2F%2Fwww.thefp.com%2Fnewsletter",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder='ENTER YOUR EMAIL']",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type='submit']",
+                "action": "click"
+            }
+        ]
+    },
+    "ADN Newsletter": {
+        "url": "https://www.adn.com/newsletter/",
+        "steps": [
+            {
+                "xpath": "//input[@id='email']",
+                "action": "send_keys",
+                "value": "email",
+                "delay": 3
+            },
+            {
+                "xpath": null,
+                "action": "execute_script",
+                "value": "window.scrollBy(0, 50);"
+            },
+            {
+                "xpath": "//button[@type='submit']",
+                "action": "click"
+            }
+        ]
+    },
+    "RetailMeNot Shopping Spree": {
+        "url": "https://www.retailmenot.com/blog/shoppingspree?marketingadgroup=site-hp-hellobar-btsshoppingspree",
+        "steps": [
+            {
+                "xpath": "//div[@class='cell large-12']//input[@id='email']",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//div[@class='cell large-12']//input[@value='Subscribe']",
+                "action": "click"
+            }
+        ]
+    },
     "Indian Express Newsletters": {
         "url": "https://indianexpress.com/newsletters/",
         "steps": [
