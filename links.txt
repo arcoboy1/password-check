@@ -1,18 +1,5 @@
 {
-    "WordDaily": {
-        "url": "https://worddaily.com/?ref=inboxreads",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Enter Email Address']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@class='joinus-email-btn']",
-                "action": "click"
-            }
-        ]
-    },
+    
     "TheFP": {
         "url": "https://www.thefp.com/subscribe?utm_source=menu&simple=true&next=https%3A%2F%2Fwww.thefp.com%2Fnewsletter",
         "steps": [
