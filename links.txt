@@ -1,14 +1,46 @@
 {
-    "WordDaily": {
-        "url": "https://worddaily.com/?ref=inboxreads",
+    "Newsweek": {
+        "url": "https://www.newsweek.com/preference-center",
         "steps": [
             {
-                "xpath": "//input[@placeholder='Enter Email Address']",
+                "xpath": "//body/main/div[@class='SignUp_wrapper__zSXT0 SignUp_wrapper__zSXT0 SignUp_wrapper__zSXT0']/div[1]/button[1]",
+                "action": "click"
+            },
+            {
+                "xpath": "//input[@name='em']",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@class='joinus-email-btn']",
+                "xpath": "//body/main/div[@class='SignUp_wrapper__zSXT0 SignUp_wrapper__zSXT0 SignUp_wrapperHasMb__mlfA3']/div[2]/button[1]",
+                "action": "click"
+            },
+            {
+                "xpath": "//div[3]//button[1]//span[1]",
+                "action": "click"
+            },
+            {
+                "xpath": "//div[4]//button[1]//span[1]",
+                "action": "click"
+            },
+            {
+                "xpath": "/html[1]/body[1]/main[1]/div[2]/div[8]/button[1]/span[1]",
+                "action": "click"
+            },
+            {
+                "xpath": "//div[7]//button[1]//span[1]",
+                "action": "click"
+            },
+            {
+                "xpath": "//div[6]//button[1]//span[1]",
+                "action": "click"
+            },
+            {
+                "xpath": "//div[5]//button[1]//span[1]",
+                "action": "click"
+            },
+            {
+                "xpath": "//button[@type='submit']",
                 "action": "click"
             }
         ]
@@ -23,6 +55,20 @@
             },
             {
                 "xpath": "//button[@type='submit']",
+                "action": "click"
+            }
+        ]
+    },
+    "WordDaily": {
+        "url": "https://worddaily.com/?ref=inboxreads",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder='Enter Email Address']",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@class='joinus-email-btn']",
                 "action": "click"
             }
         ]
