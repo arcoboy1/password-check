@@ -1,4 +1,22 @@
 {
+    "TheAtlantic": {
+        "url": "https://www.theatlantic.com/newsletters/",
+        "steps": [
+            {
+                "xpath": "//label[@id='newsletter-0']//div[@class='NewsletterCard_cardContent__gFIOE']",
+                "action": "click"
+            },
+            {
+                "xpath": "//input[@id=':r4:']",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[normalize-space()='Sign Up']",
+                "action": "click"
+            }
+        ]
+    },
     "Newsweek": {
         "url": "https://www.newsweek.com/preference-center",
         "steps": [
