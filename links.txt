@@ -24,22 +24,6 @@
                 "action": "click"
             },
             {
-                "xpath": "/html[1]/body[1]/main[1]/div[2]/div[8]/button[1]/span[1]",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[7]//button[1]//span[1]",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[6]//button[1]//span[1]",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[5]//button[1]//span[1]",
-                "action": "click"
-            },
-            {
                 "xpath": "//button[@type='submit']",
                 "action": "click"
             }
