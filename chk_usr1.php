@@ -1,2 +1,1 @@
-admins
-2020hazem
+admins:1512hazem
