@@ -1,3 +1,3 @@
-admin:1234
+admin:12345
 test:test
 user:pass
