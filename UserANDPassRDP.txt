@@ -1,4 +1,4 @@
-admin:0000
-test:test
-user:pass
+admin:8448
+test:8448
+atef:leo
 k:10
