@@ -1,4 +1,4 @@
 admin:8448
 hazem:8448
 atef:leo
-k:10
+k:hazem*2
