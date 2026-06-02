@@ -1,1729 +1,3605 @@
 {
-    "TheFP": {
-        "url": "https://www.thefp.com/subscribe?utm_source=menu&simple=true&next=https%3A%2F%2Fwww.thefp.com%2Fnewsletter",
+    "theconversation.com us newsletters": {
+        "url": "https://theconversation.com/us/newsletters/the-daily-newsletter-3",
         "steps": [
             {
-                "xpath": "//input[@placeholder='ENTER YOUR EMAIL']",
+                "xpath": "//input[@id=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@type='submit']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "WordDaily": {
-        "url": "https://worddaily.com/?ref=inboxreads",
+    "politico.com playbook": {
+        "url": "https://politico.com/playbook",
         "steps": [
             {
-                "xpath": "//input[@placeholder='Enter Email Address']",
+                "xpath": "//input[@name=\"subscribeEmail\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@class='joinus-email-btn']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "ADN Newsletter": {
-        "url": "https://www.adn.com/newsletter/",
+    "demandprogress.us10.list-manage.com subscribe": {
+        "url": "https://demandprogress.us10.list-manage.com/subscribe?u=473283de10f9c69c998b8e3cd&id=a80abc34d0",
         "steps": [
             {
-                "xpath": "//input[@id='email']",
-                "action": "send_keys",
-                "value": "email",
-                "delay": 3
-            },
-            {
-                "xpath": null,
-                "action": "execute_script",
-                "value": "window.scrollBy(0, 50);"
-            },
-            {
-                "xpath": "//button[@type='submit']",
-                "action": "click"
-            }
-        ]
-    },
-    "Indian Express Newsletters": {
-        "url": "https://indianexpress.com/newsletters/",
-        "steps": [
-            {
-                "xpath": "//div[@class='select_allcheck']//span[@class='checkmark_box']",
-                "action": "click"
-            },
-            {
-                "xpath": "//input[@id='page-email-inp']",
+                "xpath": "//input[@id=\"MERGE0\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@value='Subscribe']",
+                "xpath": "//input[@name=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Adafruit Newsletter": {
-        "url": "https://www.adafruit.com/newsletter",
+    "axios.com newsletters axios-am": {
+        "url": "https://axios.com/newsletters/axios-am",
         "steps": [
             {
-                "xpath": "//input[@placeholder='email address']",
+                "xpath": "//input[@id=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@name='action']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Sequoia Capital Newsletter": {
-        "url": "https://www.sequoiacap.com/newsletter/?",
+    "actionnetwork.org forms sign-up-for-political-social-grab-bag-email": {
+        "url": "https://actionnetwork.org/forms/sign-up-for-political-social-grab-bag-email",
         "steps": [
             {
-                "xpath": "//input[@placeholder='Email Address']",
+                "xpath": "//input[@id=\"form-email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@value='Submit']",
+                "xpath": "//input[@name=\"commit\"]",
                 "action": "click"
             }
         ]
     },
-    "QZ Daily Brief": {
-        "url": "https://qz.com/emails/daily-brief",
+    "connect.brookings.edu sign-up-for-the-brookings-brief": {
+        "url": "https://connect.brookings.edu/sign-up-for-the-brookings-brief",
         "steps": [
             {
-                "xpath": "//input[@placeholder='Enter email address']",
+                "xpath": "//input[@id=\"email-35f9ff12-6ea5-40dc-ad7e-cf1516d06673_4364\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@type='submit']",
+                "xpath": "//input[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "WomenTalkDesign": {
-        "url": "https://womentalkdesign.com/",
+    "edition.cnn.com specials 5-things": {
+        "url": "https://edition.cnn.com/specials/5-things",
         "steps": [
             {
-                "xpath": "//input[@id='mce-EMAIL']",
+                "xpath": "//input[@id=\"newsletter-subscribe-email-input\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@id='mc-embedded-subscribe']",
+                "xpath": "//button[@id=\"newsletter-subscribe-button\"]",
                 "action": "click"
             }
         ]
     },
-    "Sportskeeda Newsletters": {
-        "url": "https://www.sportskeeda.com/newsletters",
+    "crooked.com newsletters": {
+        "url": "https://crooked.com/newsletters",
         "steps": [
             {
-                "xpath": "//div[@class='newsletter-lists']//div[1]//div[3]//button[1]//span[1]",
-                "action": "click"
-            },
-            {
-                "xpath": "//input[@id='newsletter-email']",
+                "xpath": "//input[@name=\"EMAIL\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@id='subscribe-button']",
-                "action": "click"
-            },
-            {
-                "xpath": "//button[@id='close-newsletter-modal']",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[2]//div[3]//button[1]//span[1]",
-                "action": "click"
-            },
-            {
-                "xpath": "//button[@id='subscribe-button']",
-                "action": "click"
-            },
-            {
-                "xpath": "//button[@id='close-newsletter-modal']",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[@class='newsletter']//div[3]//div[3]//button[1]//span[1]",
-                "action": "click"
-            },
-            {
-                "xpath": "//button[@id='subscribe-button']",
-                "action": "click"
-            },
-            {
-                "xpath": "//button[@id='close-newsletter-modal']",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[@class='newsletter']//div[3]//div[3]//button[1]//span[1]",
-                "action": "click"
-            },
-            {
-                "xpath": "//button[@id='subscribe-button']",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[4]//div[3]//button[1]//span[1]",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Investors.com Newsletters": {
-        "url": "https://get.investors.com/newsletters/",
+    "waitbutwhy.com": {
+        "url": "https://waitbutwhy.com/",
         "steps": [
             {
-                "xpath": "//input[@id='email']",
+                "xpath": "//input[@name=\"email_address\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@id='submit']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Raseef22 Newsletter": {
-        "url": "https://raseef22.net/newsletter",
+    "hbswk.hbs.edu aboutus Pages": {
+        "url": "https://hbswk.hbs.edu/aboutus/Pages/signup.aspx",
         "steps": [
             {
-                "xpath": "//input[@class='input-box']",
+                "xpath": "//input[@id=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//div[@class='newsletters col-lg-4']//div[1]//div[1]//label[1]//span[1]",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[2]//div[1]//label[1]//span[1]",
-                "action": "click"
-            },
-            {
-                "xpath": null,
-                "action": "execute_script",
-                "value": "window.scrollBy(0, 50);",
-                "delay": 2
-            },
-            {
-                "xpath": "//a[@class='submit-donation registerNewsletters']",
+                "xpath": "//button[@id=\"_form_45_submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Retail Economic Times Newsletter": {
-        "url": "https://retail.economictimes.indiatimes.com/etnewsletter.php",
+    "axios.com newsletters axios-pro-rata": {
+        "url": "https://axios.com/newsletters/axios-pro-rata",
         "steps": [
             {
-                "xpath": "//input[@id='subscribe_email_top']",
+                "xpath": "//input[@id=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@id='subscriber_btn_top']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "The Moscow Times Newsletters": {
-        "url": "https://www.themoscowtimes.com/newsletters",
+    "ritholtz.com": {
+        "url": "https://ritholtz.com/",
         "steps": [
             {
-                "xpath": "//input[@placeholder='Your email']",
+                "xpath": "//input[@id=\"fieldEmail\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@placeholder='Your name']",
-                "action": "send_keys",
-                "value": "Hazem"
-            },
-            {
-                "xpath": "/html/body/div[5]/div/div/article/section/div/div/button",
+                "xpath": "//input[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "TLDR Tech": {
-        "url": "https://tldr.tech/",
+    "fintech.io newsletter": {
+        "url": "https://fintech.io/newsletter",
         "steps": [
             {
-                "xpath": "//input[@placeholder='Email Address']",
+                "xpath": "//input[@name=\"EMAIL\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@type='submit']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "CSS Weekly": {
-        "url": "https://css-weekly.com/",
+    "marginalrevolution.com": {
+        "url": "https://marginalrevolution.com/",
         "steps": [
             {
-                "xpath": "//input[@id='email']",
+                "xpath": "//input[@id=\"subscribe-field-blog_subscription-2\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@id='submit']",
+                "xpath": "//button[@name=\"jetpack_subscriptions_widget\"]",
                 "action": "click"
             }
         ]
     },
-    "Atavist Magazine Subscribe": {
-        "url": "https://magazine.atavist.com/subscribe/",
+    "thewatercoolest.com": {
+        "url": "https://thewatercoolest.com/",
         "steps": [
             {
-                "xpath": "//input[@placeholder='Your email address']",
+                "xpath": "//input[@name=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@value='Get the newsletter']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "OkDork": {
-        "url": "https://okdork.com/",
+    "thefr.com subscribe": {
+        "url": "https://thefr.com/subscribe",
         "steps": [
             {
-                "xpath": "//input[@aria-label='Email Address']",
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@class='btn btn-primary px-2']",
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
                 "action": "click"
             }
         ]
     },
-    "Seth's Blog": {
-        "url": "https://seths.blog/",
+    "crowdsourcingweek.com": {
+        "url": "https://crowdsourcingweek.com/",
         "steps": [
             {
-                "xpath": "//input[@placeholder='me@email.com']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@id='sg_fbz_subscribe']",
-                "action": "click"
-            }
-        ]
-    },
-    "Fox News Newsletters": {
-        "url": "https://www.foxnews.com/newsletters",
-        "steps": [
-            {
-                "xpath": "//li[@class='newsletter-item breaking-news']//div[@class='button subscribe']",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[@class='user-input']//input[@placeholder='Type your email']",
-                "action": "send_keys",
-                "value": "email",
-                "delay": 3
-            },
-            {
-                "xpath": "//div[@class='user-input alt']//div[@class='button enter']//a[@href='#'][normalize-space()='Subscribe']",
-                "action": "click"
-            },
-            {
-                "xpath": "//li[@class='newsletter-item breaking-news-fbn']//div[@class='button subscribe']",
+                "xpath": "//button[@id=\"cn-accept-cookie\"]",
                 "action": "click",
-                "delay": 3
+                "delay": 1
             },
             {
-                "xpath": "//div[@class='user-input alt']//div[@class='button enter']",
+                "xpath": "//input[@id=\"et_pb_signup_email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//a[normalize-space()=\"JOIN US\"]",
                 "action": "click"
+            }
+        ]
+    },
+    "strictlyvc.com signup": {
+        "url": "https://strictlyvc.com/signup",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
             },
             {
-                "xpath": "//li[@class='newsletter-item fn-first']//div[@class='info']//div[@class='button subscribe']//a[@href='#'][normalize-space()='Subscribe']",
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "2pml.com": {
+        "url": "https://2pml.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "nirandfar.com subscribe": {
+        "url": "https://nirandfar.com/subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"_form_50_submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "trendwatching.com subscribe": {
+        "url": "https://trendwatching.com/subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "rockhealth.com rock-weekly": {
+        "url": "https://rockhealth.com/rock-weekly",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"et_pb_signup_email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//a[normalize-space()=\"SUBSCRIBE\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "seths.blog confirm": {
+        "url": "https://seths.blog/confirm",
+        "steps": [
+            {
+                "xpath": "//input[@type=\"submit\"]",
                 "action": "click",
-                "delay": 3
+                "delay": 1
             },
             {
-                "xpath": "//div[@class='user-input alt']//div[@class='button enter']",
+                "xpath": "//input[@name=\"sg_feedblitz_email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"sg_fbz_subscribe\"]",
                 "action": "click"
+            }
+        ]
+    },
+    "npr.org newsletter ed": {
+        "url": "https://npr.org/newsletter/ed",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"subscriber-email-input\"]",
+                "action": "send_keys",
+                "value": "email"
             },
             {
-                "xpath": "//li[@class='newsletter-item fn-elections']//div[@class='button subscribe']",
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "serialmarketer.net subscribe": {
+        "url": "https://serialmarketer.net/subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"ff_1_email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@aria-label=\"Submit Form\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "muckrack.com daily": {
+        "url": "https://muckrack.com/daily",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"daily-signup-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "axios.com newsletters axios-media-trends": {
+        "url": "https://axios.com/newsletters/axios-media-trends",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "service.govdelivery.com accounts USNSF": {
+        "url": "https://service.govdelivery.com/accounts/USNSF/subscriber/new",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"commit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "axios.com newsletters axios-science": {
+        "url": "https://axios.com/newsletters/axios-science",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "axios.com newsletters axios-future": {
+        "url": "https://axios.com/newsletters/axios-future",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "edge.org newsletter subscribe": {
+        "url": "https://edge.org/newsletter/subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"edit-mergevars-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"edit-submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "diamandis.com thanks": {
+        "url": "https://diamandis.com/thanks?submissionGuid=5e013bd7-f806-4798-a778-ad40ed39c3ee",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-3b552d01-b7a4-4f04-b697-eb3ba2c6a405_9060\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "blog.thegovlab.org": {
+        "url": "https://blog.thegovlab.org/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "nonprofitaf.com": {
+        "url": "https://nonprofitaf.com/?subscribe=many_pending_subs",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"cta-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@aria-label=\"Subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "vox.com future-perfect": {
+        "url": "https://vox.com/future-perfect",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "theprepared.org newsletter": {
+        "url": "https://theprepared.org/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Your email address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "invisionapp.com inside-design subscribe": {
+        "url": "https://invisionapp.com/inside-design/subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Enter your work email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "densediscovery.com": {
+        "url": "https://densediscovery.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "sidebar.io": {
+        "url": "https://sidebar.io/",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Your Email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[normalize-space()=\"SUBSCRIBE\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "redef.com new-subscription": {
+        "url": "https://redef.com/new-subscription",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"js-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "themarginalian.org newsletter": {
+        "url": "https://themarginalian.org/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "weekendbriefing.com": {
+        "url": "https://weekendbriefing.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "go.tim.blog 5-bullet-friday-1": {
+        "url": "https://go.tim.blog/5-bullet-friday-1",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email_address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "us9.list-manage.com subscribe": {
+        "url": "https://us9.list-manage.com/subscribe?u=77a4b331cf05dd6dd2ad3c74b&id=2186d05f63",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"MERGE0\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "goop.com subscribe": {
+        "url": "https://goop.com/subscribe",
+        "steps": [
+            {
+                "xpath": "//button[@id=\"dismiss-banner\"]",
                 "action": "click",
-                "delay": 3
+                "delay": 1
             },
             {
-                "xpath": "//li[@class='newsletter-item fn-elections']//div[@class='button enter']",
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
+            }
+        ]
+    },
+    "nonsensenyc.com cgi-bin dada": {
+        "url": "https://nonsensenyc.com/cgi-bin/dada/mail.cgi/list/nonsensenyc",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"ddm_email\"]",
+                "action": "send_keys",
+                "value": "email"
             },
             {
-                "xpath": "//li[@class='newsletter-item fox-411']//div[@class='button subscribe']",
+                "xpath": "//input[@id=\"ddm_subscribe_button\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "theinfatuation.com newsletter": {
+        "url": "https://theinfatuation.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"field-:R1bj6slad9ilt6:\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "forms.technologyreview.com newsletters biotech-the-checkup": {
+        "url": "https://forms.technologyreview.com/newsletters/biotech-the-checkup?itm_source=entry-modal&itm_medium=onsite&itm_campaign=checkup-launch&itm_content=control&_ptid=%7Bkpdx%7DAAAA-By2SBvw6QoKV1VPQ05TVWdwdRIQbDltbGxnbnh4bDNsYXlzaRoMRVhHM1pCRVpHSkNMIiUxODA4dmgwMGM4LTAwMDAzMTA5Y3BqNGdhdDJrMGI5Y2ljc280KhpzaG93VGVtcGxhdGVIVjVKOE1DUlg2RUw1NjABOgxPVFlLQVlYMDNZT0FCDU9UVlVROU9TQUE5ODFSS3YtMjAyMi0xMC0yNC0xMS01MC0xNi0yMjktbG5WQkpaNVNWaW1keDVjYi03NDU2ZjY4ZTUyMTM0YzI1ZDBjOGM5ZjY5ZWIxMjU2ZVoMNDUuMjQxLjU4LjgzYgNkd2No2OLemgZwAngE",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email_address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"lp-pom-button-171\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "qz.com emails unga-2022": {
+        "url": "https://qz.com/emails/unga-2022",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Enter email address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "roundup.getdbt.com": {
+        "url": "https://roundup.getdbt.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "womentalkdesign.com about": {
+        "url": "https://womentalkdesign.com/about",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "lefsetz.com lists": {
+        "url": "https://lefsetz.com/lists?p=subscribe&id=1",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "fs.blog newsletter": {
+        "url": "https://fs.blog/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email_address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "news.un.org en content": {
+        "url": "https://news.un.org/en/content/un-newsletter-subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "annhandley.com newsletter": {
+        "url": "https://annhandley.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click",
-                "delay": 3
+                "delay": 1
             },
             {
-                "xpath": "//li[@class='newsletter-item fox-411']//div[@class='button enter']",
-                "action": "click"
-            },
-            {
-                "xpath": "//li[@class='newsletter-item opinion']//div[@class='button subscribe']",
-                "action": "click"
-            },
-            {
-                "xpath": "//li[@class='newsletter-item opinion']//div[@class='button enter']",
-                "action": "click"
-            },
-            {
-                "xpath": "//li[@class='newsletter-item lifestyle']//div[@class='button subscribe']",
-                "action": "click"
-            },
-            {
-                "xpath": "//li[@class='newsletter-item lifestyle']//div[@class='button enter']",
-                "action": "click"
-            },
-            {
-                "xpath": "//li[@class='newsletter-item fn-health']//div[@class='button subscribe']",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[@class='user-input alt']//div[@class='button enter']",
-                "action": "click"
-            },
-            {
-                "xpath": "//li[@class='newsletter-item fn-scitech']//div[@class='button subscribe']",
-                "action": "click"
-            },
-            {
-                "xpath": "//li[@class='newsletter-item fn-scitech']//div[@class='button enter']",
-                "action": "click"
-            },
-            {
-                "xpath": "//li[@class='newsletter-item fn-autos']//div[@class='button subscribe']",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[@class='user-input alt']//div[@class='button enter']",
-                "action": "click"
-            },
-            {
-                "xpath": "//li[@class='newsletter-item foxnation-fbn']//div[@class='button subscribe']",
-                "action": "click"
-            },
-            {
-                "xpath": "//div[@class='user-input alt']//div[@class='button enter']",
-                "action": "click"
-            }
-        ]
-    },
-    "HubSpot Marketing Blog": {
-        "url": "https://blog.hubspot.com/marketing",
-        "steps": [
-            {
-                "xpath": "//input[@class='blog-form-subscription-input cl-input-input -subscription-input']",
+                "xpath": "//input[@id=\"fl-subscribe-form-email-uyoxp3djw7lf\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@class='blog-form-submit cl-button -primary -small']",
+                "xpath": "//a[@aria-label=\"Join the Shenanigans (and Subscribe)\"]",
                 "action": "click"
             }
         ]
     },
-    "Platformer News": {
-        "url": "https://www.platformer.news/",
+    "npr.org newsletter life-kit": {
+        "url": "https://npr.org/newsletter/life-kit",
         "steps": [
             {
-                "xpath": "//input[@id='header-email']",
+                "xpath": "//input[@id=\"subscriber-email-input\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//div[@class='gh-header-inner gh-inner']//form[@class='gh-form']//button[@aria-label='Subscribe']//span//span[contains(text(),'Subscribe')]",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "ReadTangle": {
-        "url": "https://www.readtangle.com/?ref=the-goodnewsletter",
+    "jainfamilyinstitute.org pw-sources": {
+        "url": "https://jainfamilyinstitute.org/pw-sources",
         "steps": [
             {
-                "xpath": "//div[@class='readtangle-cta__main col-xs-12 col-xl-6']//input[@placeholder='Your email address']",
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@class='ct-btn ct-btn-lg']",
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
                 "action": "click"
             }
         ]
     },
-    "Galls Newsletter": {
-        "url": "https://www.galls.com/",
+    "toolfoundry.org journal": {
+        "url": "https://toolfoundry.org/journal",
         "steps": [
             {
-                "xpath": "//input[@id='signupemail_new']",
+                "xpath": "//input[@id=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//select[@id='samFooterProfession']",
-                "action": "select_by_value",
-                "value": "Security"
-            },
-            {
-                "xpath": "//button[normalize-space()='Get My Offer']",
+                "xpath": "//input[@name=\"subscribe\"]",
                 "action": "click"
             }
         ]
     },
-    "1Password Newsletter": {
-        "url": "https://1password.com/newsletter/",
+    "campaign-archive.us1.list-manage.com subscribe": {
+        "url": "https://campaign-archive.us1.list-manage.com/subscribe?u=2aa4d42d498f5b86e450f88c8&id=5dd2e495c1",
         "steps": [
             {
-                "xpath": "//input[@id='email']",
+                "xpath": "//input[@id=\"MERGE0\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@type='submit']",
+                "xpath": "//input[@name=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Strange Days News": {
-        "url": "https://www.strangedaysnews.com/page/2/",
+    "nycdanceweek.org": {
+        "url": "https://nycdanceweek.org/",
         "steps": [
             {
-                "xpath": "//input[@id='awf_field-117544308']",
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@name='submit']",
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
                 "action": "click"
             }
         ]
     },
-    "Goodness Exchange Subscribe": {
-        "url": "https://goodness-exchange.com/subscribe/",
+    "oversharing.substack.com": {
+        "url": "https://oversharing.substack.com/",
         "steps": [
             {
-                "xpath": "//input[@id='firstname']",
-                "action": "send_keys",
-                "value": "Hazem"
-            },
-            {
-                "xpath": "//input[@id='lastname']",
-                "action": "send_keys",
-                "value": "Khaled"
-            },
-            {
-                "xpath": "//input[@id='email']",
+                "xpath": "//input[@name=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@id='_form_9_submit']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Kyiv Independent Newsletters": {
-        "url": "https://kyivindependent.com/newsletters/",
+    "hr.iherb.com c new-chapter": {
+        "url": "https://hr.iherb.com/c/new-chapter?gclsrc=aw.ds",
         "steps": [
             {
-                "xpath": "//label[@for='checkbox-30851eba5d']//span[@class='NewsletterCheckbox_customCheckbox__ufqq5']",
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//a[normalize-space()=\"Sign up\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "preptoyourdoor.com product nut-milk-simple": {
+        "url": "https://preptoyourdoor.com/product/nut-milk-simple",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"page-footer-emailsignup-input\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"page-footer-emailsignup-button\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "beercartel.com.au": {
+        "url": "https://beercartel.com.au/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"Email--sections--24373882749219__newsletter_96e7Wj\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"Subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "boston.com": {
+        "url": "https://boston.com/?refresh=true",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-form-2\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@name=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "theatlantic.com world": {
+        "url": "https://theatlantic.com/world",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"na-newsletter-signup-fallback\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "independent.co.uk": {
+        "url": "https://independent.co.uk/?CMP=ILC-refresh",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"_\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "mic.com": {
+        "url": "https://mic.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "vox.com": {
+        "url": "https://vox.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "gawker.com": {
+        "url": "https://gawker.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"newsletter-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "theskimm.com daily-skimm": {
+        "url": "https://theskimm.com/daily-skimm",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "guess.com us en": {
+        "url": "https://guess.com/us/en/home",
+        "steps": [
+            {
+                "xpath": "//button[normalize-space()=\"Accept all\"]",
                 "action": "click",
-                "delay": 2
+                "delay": 1
             },
             {
-                "xpath": "//input[@placeholder='Enter your email']",
+                "xpath": "//input[@id=\"newsletterEmail\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@class='SubscribeButton_button__TW87A SubscriptionPopup_subscribeBtn__AE1eg']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Ukraine Trust Chain Newsletter": {
-        "url": "https://www.ukrainetrustchain.org/newsletter",
+    "spartan.com": {
+        "url": "https://spartan.com/",
         "steps": [
             {
-                "xpath": "//input[@id='email-yui_3_17_2_1_1552579698432_3881-field']",
+                "xpath": "//input[@type=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//span[@class='newsletter-form-button-label']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "RBTH Subscribe": {
-        "url": "https://www.rbth.com/subscribe?",
+    "oliveclothing.com": {
+        "url": "https://oliveclothing.com/",
         "steps": [
             {
-                "xpath": "//input[@type='email']",
+                "xpath": "//input[@id=\"nl_email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@value='Submit']",
+                "xpath": "//input[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Russiable Newsletter": {
-        "url": "https://russiable.com/newsletter/",
+    "at.fashionnetwork.com": {
+        "url": "https://at.fashionnetwork.com/",
         "steps": [
             {
-                "xpath": "//input[@id='email']",
+                "xpath": "//input[@name=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@id='gdpr']",
-                "action": "click"
-            },
-            {
-                "xpath": "//input[@id='submit']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Israel Daily News Newsletter": {
-        "url": "https://israeldailynews.org/newsletter/?nm=confirmed&nk=32-6623c7afe8",
+    "skynewsarabia.com": {
+        "url": "https://skynewsarabia.com/",
         "steps": [
             {
-                "xpath": "//input[@placeholder='Email']",
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[normalize-space()='Subscribe']",
+                "xpath": "//button[@id=\"mc-embedded-subscribe\"]",
                 "action": "click"
             }
         ]
     },
-    "Nexo Jornal": {
-        "url": "https://www.nexojornal.com.br/",
+    "rippedbody.com": {
+        "url": "https://rippedbody.com/",
         "steps": [
             {
-                "xpath": "//section[@class='max-w-[1140px] flex ml-auto mr-auto mt-10 undefined undefined max-[1150px]:w-[600px] max-md:w-[97%]']//input[@placeholder='Seu e-mail']",
+                "xpath": "//input[@name=\"email_address\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//*[name()='path' and contains(@d,'M12 2C6.48')]",
-                "action": "click"
-            },
-            {
-                "xpath": "//*[name()='path' and contains(@d,'M12 2C6.48')]",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Animation Magazine Newsletter": {
-        "url": "https://www.animationmagazine.net/free-newsletter/",
+    "app.brief.me": {
+        "url": "https://app.brief.me/",
         "steps": [
             {
-                "xpath": "//input[@id='fieldName']",
-                "action": "send_keys",
-                "value": "hazem"
-            },
-            {
-                "xpath": "//input[@id='fieldEmail']",
+                "xpath": "//input[@id=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@id='cm-privacy-consent']",
-                "action": "click"
-            },
-            {
-                "xpath": "//button[normalize-space()='SUBSCRIBE']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Finland Insider Newsletter": {
-        "url": "https://finlandinsider-newsletter-d0207f.beehiiv.com/",
+    "oldnavy.com": {
+        "url": "https://oldnavy.com/",
         "steps": [
             {
-                "xpath": "//div[@class='pb-4']//input[@placeholder='Enter Your Email']",
+                "xpath": "//input[@name=\"prefooter-slot-email-text-input\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//div[@class='pb-4']//input[@value='Subscribe']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "7Emirates Newsletter": {
-        "url": "https://7emirates.com/news-events/newsletter/",
+    "optinmonster.com fomo-marketing-examples-to-boost-sales": {
+        "url": "https://optinmonster.com/fomo-marketing-examples-to-boost-sales",
         "steps": [
             {
-                "xpath": "//input[@id='wpforms-2536-field_1']",
-                "action": "send_keys",
-                "value": "hazem"
-            },
-            {
-                "xpath": "//input[@id='wpforms-2536-field_4']",
-                "action": "send_keys",
-                "value": "khaled"
-            },
-            {
-                "xpath": "//input[@id='wpforms-2536-field_2']",
+                "xpath": "//input[@id=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@id='wpforms-submit-2536']",
+                "xpath": "//input[@id=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "NBK Kuwait Newsletter": {
-        "url": "https://www.nbk.com/kuwait/newsletter.html",
+    "greatist.com": {
+        "url": "https://greatist.com/",
         "steps": [
             {
-                "xpath": "//input[@id='mce-EMAIL']",
+                "xpath": "//input[@placeholder=\"Enter your email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@id='mc-embedded-subscribe']",
-                "action": "click"
-            }
-        ],
-        "post_action": "close_new_window"
-    },
-    "Sequoia Capital Newsletter (Thanks)": {
-        "url": "https://www.sequoiacap.com/newsletter/?thanks=1",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Email Address']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@value='Submit']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Artips Abonnement": {
-        "url": "https://www.artips.fr/abonnement",
+    "thegistsports.com": {
+        "url": "https://thegistsports.com/",
         "steps": [
             {
-                "xpath": "//input[@id='subscribe-fname']",
-                "action": "send_keys",
-                "value": "jjxzEM",
-                "delay": 2
-            },
-            {
-                "xpath": "//input[@id='mail']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": null,
-                "action": "execute_script",
-                "value": "window.scrollBy(0, 300);"
-            },
-            {
-                "xpath": "//input[@id='subscribe-artips-offers']",
-                "action": "click"
-            },
-            {
-                "xpath": "//input[@id='subscribe-partners-offers']",
-                "action": "click"
-            },
-            {
-                "xpath": "//input[@id='button-subscribe']",
-                "action": "click"
-            }
-        ]
-    },
-    "Letters of Note News": {
-        "url": "https://news.lettersofnote.com/",
-        "steps": [
-            {
-                "xpath": "//input[@class='pencraft emailInput-OkIMeB emailInputOnWelcomePage-nqc9VK input-y4v6N4 inputText-pV_yWb']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//div[@class='pencraft pc-display-flex pc-flexDirection-column pc-gap-4 pc-reset']//button[@type='submit']",
-                "action": "click"
-            }
-        ]
-    },
-    "AusCham VN Newsletter": {
-        "url": "https://auschamvn.org/newsletter",
-        "steps": [
-            {
-                "xpath": "//input[@id='edit-lastname']",
-                "action": "send_keys",
-                "value": "hazzenb"
-            },
-            {
-                "xpath": "//input[@id='edit-firstname']",
-                "action": "send_keys",
-                "value": "amkuook"
-            },
-            {
-                "xpath": "//input[@id='edit-email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//a[@id='edit-newsletter-submit']",
-                "action": "click"
-            }
-        ]
-    },
-    "ABColombia Newsletter": {
-        "url": "https://www.abcolombia.org.uk/news/abcolombia-newsletter/",
-        "steps": [
-            {
-                "xpath": "//form[@id='mc-embedded-subscribe-form']//input[@id='mce-EMAIL']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//form[@id='mc-embedded-subscribe-form']//input[@id='mce-FNAME']",
-                "action": "send_keys",
-                "value": "fdczem"
-            },
-            {
-                "xpath": "//form[@id='mc-embedded-subscribe-form']//input[@id='mce-LNAME']",
-                "action": "send_keys",
-                "value": "sdgzem"
-            },
-            {
-                "xpath": "//p//input[contains(@id,'mce-group')]",
-                "action": "click"
-            },
-            {
-                "xpath": "//p//input[@id='mc-embedded-subscribe']",
-                "action": "click"
-            }
-        ]
-    },
-    "Smashing Magazine Newsletter": {
-        "url": "https://www.smashingmagazine.com/the-smashing-newsletter/",
-        "steps": [
-            {
-                "xpath": "//input[@id='mce-EMAIL-hp']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@name='subscribe']",
-                "action": "click"
-            }
-        ]
-    },
-    "React Digest": {
-        "url": "https://reactdigest.net/",
-        "steps": [
-            {
-                "xpath": "//input[@id='subscriber_email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@name='commit']",
-                "action": "click"
-            }
-        ]
-    },
-    "Ask Leo! Newsletter": {
-        "url": "https://newsletter.askleo.com/",
-        "steps": [
-            {
-                "xpath": "//div[@class='entry-content']//div[1]//div[1]//form[1]//p[1]//input[1]",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//div[@class='entry-content']//div[1]//div[1]//form[1]//p[2]//input[1]",
-                "action": "click"
-            }
-        ]
-    },
-    "Improbable Research Mini-Air": {
-        "url": "https://improbable.com/airchives/miniair/",
-        "steps": [
-            {
-                "xpath": "//input[@name='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@name='email-button']",
-                "action": "click"
-            }
-        ]
-    },
-    "History Today Newsletter": {
-        "url": "https://www.historytoday.com/newsletter",
-        "steps": [
-            {
-                "xpath": "//div[@class='clearfix text-formatted field field--name-field-paragraph-text field--type-text-long field--label-hidden field__item']//input[@id='mce-EMAIL']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//div[@class='clearfix text-formatted field field--name-field-paragraph-text field--type-text-long field--label-hidden field__item']//input[@id='mc-embedded-subscribe']",
-                "action": "click"
-            }
-        ],
-        "post_action": "close_new_window"
-    },
-    "QZ at Work": {
-        "url": "https://qz.com/emails/quartz-at-work/",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Enter email address']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@type='submit']",
-                "action": "click"
-            }
-        ]
-    },
-    "Data & Society Subscribe": {
-        "url": "https://datasociety.net/#subscribe",
-        "steps": [
-            {
-                "xpath": "//div[@class='signup signup-home']//input[@id='mce-EMAIL']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@value='SUBSCRIBE']",
-                "action": "click"
-            }
-        ],
-        "post_action": "close_new_window"
-    },
-    "Creative Mornings Newsletter": {
-        "url": "https://creativemornings.com/newsletter",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Email address']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@value='Sign me up']",
-                "action": "click"
-            }
-        ]
-    },
-    "The Soulful Entrepreneur": {
-        "url": "https://the-soulful-entrepreneur.beehiiv.com/",
-        "steps": [
-            {
-                "xpath": "//div[@class='mx-auto mt-4 max-w-sm sm:max-w-lg']//input[@placeholder='Enter Your Email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//div[@class='mx-auto mt-4 max-w-sm sm:max-w-lg']//input[@value='Subscribe']",
-                "action": "click"
-            }
-        ]
-    },
-    "Good Fvcking Emails": {
-        "url": "https://www.goodfvckingemails.com/",
-        "steps": [
-            {
-                "xpath": "//input[@id='Footer-Email-Two-2']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@value='Submit']",
-                "action": "click"
-            }
-        ]
-    },
-    "Demand Curve Newsletter": {
-        "url": "https://www.demandcurve.com/newsletter",
-        "steps": [
-            {
-                "xpath": "//div[@id='subscribe']//input[@id='Email-28']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//div[@id='subscribe']//input[@value='Subscribe']",
-                "action": "click"
-            }
-        ]
-    },
-    "Marketing Secrets": {
-        "url": "https://marketingsecrets.com/home-new",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Best Email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//span[contains(text(),'Join Today')]",
-                "action": "click"
-            }
-        ]
-    },
-    "Learn Why We Buy": {
-        "url": "https://learnwhywebuy.com/",
-        "steps": [
-            {
-                "xpath": "//input[@id='email-wp']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//span[normalize-space()='SUBSCRIBE FREE']",
-                "action": "click"
-            }
-        ]
-    },
-    "Enriched Mindset Newsletter": {
-        "url": "https://www.enrichedmindset.com/newsletter",
-        "steps": [
-            {
-                "xpath": "//input[@id='input_comp-m96c3qpd']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@aria-label='Sign Up']",
-                "action": "click"
-            }
-        ]
-    },
-    "Ali Abdaal Newsletter": {
-        "url": "https://aliabdaal.com/newsletter/introducing-lifenotes/",
-        "steps": [
-            {
-                "xpath": "//div[@class='wp-block-group ali-newsletter-form has-newsletter-form--vertical has-global-padding is-layout-constrained wp-block-group-is-layout-constrained']//input[@id='input_1_1']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//div[@class='wp-block-group ali-newsletter-form has-newsletter-form--vertical has-global-padding is-layout-constrained wp-block-group-is-layout-constrained']//input[@id='gform_submit_button_1']",
-                "action": "click"
-            }
-        ]
-    },
-    "Italy Segreta Newsletter": {
-        "url": "https://italysegreta.com/newsletter/",
-        "steps": [
-            {
-                "xpath": "//input[@id='yikes-easy-mc-form-4-EMAIL']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//span[@class='yikes-mailchimp-submit-button-span-text']",
-                "action": "click"
-            }
-        ]
-    },
-    "2B.com.eg Newsletter": {
-        "url": "https://2b.com.eg/",
-        "steps": [
-            {
-                "xpath": null,
-                "action": "execute_script",
-                "value": "window.scrollBy(0, 900);"
-            },
-            {
-                "xpath": "//input[@id='footer_newsletter']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//span[@id='sub']",
-                "action": "click"
-            }
-        ]
-    },
-    "Healthcare Success Enewsletter": {
-        "url": "https://healthcaresuccess.com/free-resources/enewsletter",
-        "steps": [
-            {
-                "xpath": "//input[@id='firstname-5d699731-b31f-49fe-8175-8cf86d909e18']",
-                "action": "send_keys",
-                "value": "HAZEM"
-            },
-            {
-                "xpath": "//input[@id='email-5d699731-b31f-49fe-8175-8cf86d909e18']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@value='Sign Me Up']",
-                "action": "click"
-            }
-        ]
-    },
-    "This Is Money Newsletter": {
-        "url": "https://www.thisismoney.co.uk/money/article-1614451/Free-newsletter-best-tips-advice.html",
-        "steps": [
-            {
-                "xpath": "//input[@id='Email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@value='GO']",
-                "action": "click"
-            }
-        ]
-    },
-    "SEOFOMO Newsletter": {
-        "url": "https://subscribe.page/s/seofomo?rh_ref=dc17f3ab&sl_campaign=MF7a0daadcfb",
-        "steps": [
-            {
-                "xpath": "//input[@id='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@id='submit-button']",
-                "action": "click"
-            }
-        ]
-    },
-    "Steven Pressfield Writing Wednesdays": {
-        "url": "https://stevenpressfield.com/category/writing-wednesdays/",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Your Email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//span[normalize-space()='SUBSCRIBE']",
-                "action": "click"
-            }
-        ]
-    },
-    "Google Blog Newsletter": {
-        "url": "https://blog.google/newsletter-subscribe/",
-        "steps": [
-            {
-                "xpath": "//div[@class='newsletter-form']//input[@id='uni_subscribe_email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//div[@class='newsletter-form']//button[@aria-label='Subscribe'][normalize-space()='Subscribe']",
-                "action": "click"
-            }
-        ]
-    },
-    "Miliboo Newsletter": {
-        "url": "https://www.miliboo.com/",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Entrez votre Email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@name='send_newsletter']",
-                "action": "click"
-            }
-        ]
-    },
-    "Pudding.cool Newsletter": {
-        "url": "https://pudding.cool/",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='you@example.com']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@value='Subscribe']",
-                "action": "click"
-            }
-        ]
-    },
-    "American Research Panel": {
-        "url": "http://americanresearchpanel.com",
-        "steps": [
-            {
-                "xpath": "//input[@id='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@type='submit']//img",
-                "action": "click"
-            }
-        ]
-    },
-    "Offers.com Banana Republic": {
-        "url": "https://www.offers.com/stores/banana-republic/",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Email Address']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@type='submit']",
-                "action": "click"
-            }
-        ]
-    },
-    "University World News Subscribe": {
-        "url": "https://www.universityworldnews.com/page.php?page=subscribe",
-        "steps": [
-            {
-                "xpath": "//input[@id='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@id='globalnl']",
-                "action": "click"
-            },
-            {
-                "xpath": "//input[@id='signupbutton']",
-                "action": "click"
-            }
-        ]
-    },
-    "FeederWatch Newsletter": {
-        "url": "https://feederwatch.org/",
-        "steps": [
-            {
-                "xpath": "//input[@id='mailchimp-email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@id='mailchimp-signup']",
-                "action": "click"
-            }
-        ]
-    },
-    "Byrdie Newsletter": {
-        "url": "https://www.byrdie.com/",
-        "steps": [
-            {
-                "xpath": "//input[@id='mntl-newsletter-submit_4-0__input']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@id='mntl-newsletter-submit__button_4-0']",
-                "action": "click"
-            }
-        ]
-    },
-    "The Points Guy Newsletters": {
-        "url": "https://thepointsguy.com/newsletters/daily/?utm_source=organicsocial&utm_medium=social&utm_campaign=live/",
-        "steps": [
-            {
-                "xpath": "//input[@id='LandingPage']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[normalize-space()='Join for free']",
-                "action": "click"
-            }
-        ]
-    },
-    "All The Small Things": {
-        "url": "https://allthesmallthings.co/",
-        "steps": [
-            {
-                "xpath": "//input[@id='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@name='submit']",
-                "action": "click"
-            }
-        ]
-    },
-    "Old Silence Kit Page": {
-        "url": "https://old-silence-603.ck.page/profile",
-        "steps": [
-            {
-                "xpath": "//input[@id='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@id='form-submit-button']",
-                "action": "click"
-            }
-        ]
-    },
-    "Bitter Feather Kit Page": {
-        "url": "https://bitter-feather-2551.kit.com/profile",
-        "steps": [
-            {
-                "xpath": "//input[@id='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@id='form-submit-button']",
-                "action": "click"
-            }
-        ]
-    },
-    "Alyssa Kulesa Kit Page": {
-        "url": "https://alyssakulesa.kit.com/profile",
-        "steps": [
-            {
-                "xpath": "//input[@id='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@id='form-submit-button']",
-                "action": "click"
-            }
-        ]
-    },
-    "Unique Builder Kit Page": {
-        "url": "https://unique-builder-1724.ck.page/profile",
-        "steps": [
-            {
-                "xpath": "//input[@id='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@id='form-submit-button']",
-                "action": "click"
-            }
-        ]
-    },
-    "Fab Survey Center": {
-        "url": "http://fabsurveycenter.com/",
-        "steps": [
-            {
-                "xpath": "//input[@name='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@type='submit']",
-                "action": "click"
-            }
-        ]
-    },
-    "Schoolhouse Newsletter": {
-        "url": "https://www.schoolhouse.com",
-        "steps": [
-            {
-                "xpath": "//input[@id='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[normalize-space()='Subscribe']",
-                "action": "click"
-            }
-        ]
-    },
-    "Sport England Blog": {
-        "url": "https://www.sportengland.org/blogs/more-award",
-        "steps": [
-            {
-                "xpath": "//input[@id='EmailAddress']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@id='cm_btnFormSubmit']",
-                "action": "click"
-            }
-        ]
-    },
-    "Dukes Hotel Newsletter": {
-        "url": "https://www.dukeshotel.com/newsletter.html",
-        "steps": [
-            {
-                "xpath": "//input[@name='firstName']",
-                "action": "send_keys",
-                "value": "hazem"
-            },
-            {
-                "xpath": "//input[@name='lastName']",
-                "action": "send_keys",
-                "value": "khaled"
-            },
-            {
-                "xpath": "//input[@name='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@type='submit']",
-                "action": "click"
-            }
-        ]
-    },
-    "Camden County Newsletter": {
-        "url": "https://www.camdencounty.com/",
-        "steps": [
-            {
-                "xpath": "//form[@id='mc4wp-form-1']//input[@id='email-home']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//form[@id='mc4wp-form-1']//button[@type='submit'][normalize-space()='Get Informed!']",
-                "action": "click"
-            }
-        ]
-    },
-    "Iberian Lawyer Newsletter": {
-        "url": "https://iberianlawyer.com/manuel-mingot-new-ontier-banking-finance-partner/",
-        "steps": [
-            {
-                "xpath": "//input[@id='form-field-email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//span[@class='elementor-button-text']",
-                "action": "click"
-            }
-        ]
-    },
-    "Interreg Danube News": {
-        "url": "https://interreg-danube.eu/news",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//span[@class='checkbox']",
-                "action": "click"
-            },
-            {
-                "xpath": "//button[@class='filled-btn w-fit']",
-                "action": "click"
-            }
-        ]
-    },
-    "QALO Newsletter": {
-        "url": "https://www.qalo.com",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Enter your email...']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@aria-label='SUBMIT']",
-                "action": "click"
-            }
-        ]
-    },
-    "Phys.org Space News": {
-        "url": "https://phys.org/space-news/",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@class='btn btn-block btn-info border-bold']",
-                "action": "click"
-            }
-        ]
-    },
-    "The Flipside Newsletter": {
-        "url": "https://www.theflipside.io/",
-        "steps": [
-            {
-                "xpath": "//section[@class='section-4 greybg']//input[@id='email-3']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//section[@class='section-4 greybg']//input[@id='hero-optin-submit-button']",
-                "action": "click"
-            }
-        ]
-    },
-    "ROKA Newsletter": {
-        "url": "https://www.roka.com/",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Email (Required)']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@value='Submit']",
-                "action": "click"
-            }
-        ]
-    },
-    "Curzio Research Wall Street Unplugged": {
-        "url": "https://www.curzioresearch.com/wall-street-unplugged/?utm_source=HMFIC&utm_medium=2111_wsu_lg_evergreen_googletextad&utm_campaign=WSU-LG-Evergreen&utm_term=ad&utm_content=google&sl=2111_wsu_lg_evergreen_googletextad&gc_id=15233402810&h_ad_id=657069729258&gclid=EAIaIQobChMI-Pf_wo7l_gIVhdd3Ch33ygL2EAAYASAAEgKsvvD_BwE",
-        "steps": [
-            {
-                "xpath": "//div[@class='top-form']//input[@id='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//div[@class='top-form']//a[@class='tcb-button-link tve-form-button-submit']",
-                "action": "click"
-            }
-        ]
-    },
-    "TechCrunch Newsletters": {
-        "url": "https://link.techcrunch.com/join/134/signup-all-newsletters",
-        "steps": [
-            {
-                "xpath": "//input[@id='email']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//div[4]//button[1]//div[1]",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click",
-                "delay": 2
+                "delay": 1
             },
             {
-                "xpath": "//button[normalize-space()='Subscribe']",
-                "action": "click"
-            }
-        ]
-    },
-    "Backlinko Newsletter": {
-        "url": "https://backlinko.com/",
-        "steps": [
-            {
-                "xpath": "//input[@id='form-item-email']",
+                "xpath": "//input[@id=\"subscribe-daily-sports__email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@role='button']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Confirm Subscription (Generic)": {
-        "url": "https://confirmsubscription.com/h/t/0B3C54BAABF8A5D2",
+    "newsmax.com": {
+        "url": "https://newsmax.com/",
         "steps": [
             {
-                "xpath": "//input[@id='fieldName']",
-                "action": "send_keys",
-                "value": "hazem"
-            },
-            {
-                "xpath": "//input[@id='fieldEmail']",
+                "xpath": "//input[@id=\"signUpEmail\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@type='submit']",
+                "xpath": "//a[normalize-space()=\"NRSC Joins Paxton Fundraising Effort\"]",
                 "action": "click"
             }
         ]
     },
-    "Huffington Post FR": {
-        "url": "https://www.huffingtonpost.fr/",
+    "helpscout.com blog": {
+        "url": "https://helpscout.com/blog",
         "steps": [
             {
-                "xpath": "//button[@class='gdpr-hfp-button gdpr-hfp-button--big gdpr-hfp-button--main']",
-                "action": "click"
-            },
-            {
-                "xpath": "//input[@placeholder='votre adresse email']",
+                "xpath": "//input[@id=\"bb44a54a-5eb9-49aa-adbc-cc247f4fbfa1-email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@id='newsletterForm']",
+                "xpath": "//button[@name=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Vermont Country Store": {
-        "url": "https://www.vermontcountrystore.com/bonworth-welcome?irclickid=Vy1V3k3BBxycRS2Rvpx6RyDxUkp0mjXb12fIRc0&utm_source=impact&utm_medium=affiliate&utm_campaign=123201&utm_content=Vy1V3k3BBxycRS2Rvpx6RyDxUkp0mjXb12fIRc0&sourceid=7RAFIL24&irgwc=1&",
+    "brainpickings.org newsletter": {
+        "url": "https://brainpickings.org/newsletter",
         "steps": [
             {
-                "xpath": "//section[@class='Region col-6']//input[@placeholder='Enter Email']",
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//section[@class='Region col-6']//button[@type='submit'][normalize-space()='SIGN UP']",
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
                 "action": "click"
             }
         ]
     },
-    "Miro AR": {
-        "url": "https://miro.com/ar/?irclickid=xzqx-j3BBxycRUQSIpw5s0PyUkp0mBW612fIRc0&utm_source=Linkbux&utm_medium=cpa&utm_campaign=&utm_affiliate_network=impact&utm_custom=https%3A%2F%2Ftakeads.com%2F&irgwc=1",
+    "copyhackers.com": {
+        "url": "https://copyhackers.com/",
         "steps": [
             {
-                "xpath": "//input[@class='form-control-fluid form-control form-control-lg']",
+                "xpath": "//input[@id=\"_field_email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@class='btn-primary-stroke btn-fluid btn btn-primary btn-lg']",
+                "xpath": "//button[@id=\"_form_221_submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Ask Leo!": {
-        "url": "https://askleo.com/",
+    "techstars.com communities startup-digest": {
+        "url": "https://techstars.com/communities/startup-digest",
         "steps": [
             {
-                "xpath": "//p//input[@id='fEmail']",
+                "xpath": "//input[@id=\"email-c52fd4aa-8b64-4ccb-88e3-f7f7aa223670\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//div[@class='al_form']//input[@id='fSubmit']",
+                "xpath": "//input[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "25IQ About": {
-        "url": "https://25iq.com/about/",
+    "invisionapp.com inside-design": {
+        "url": "https://invisionapp.com/inside-design",
         "steps": [
             {
-                "xpath": "//input[@id='subscribe-field-blog_subscription-2']",
+                "xpath": "//input[@placeholder=\"Enter your work email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@name='jetpack_subscriptions_widget']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "STAT News Signup": {
-        "url": "https://www.statnews.com/signup/",
+    "orukayak.com": {
+        "url": "https://orukayak.com/",
         "steps": [
             {
-                "xpath": "//input[@id='field-email']",
+                "xpath": "//button[@aria-label=\"allow cookies\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@id=\"email\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@value='Sign Up']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Yoast SEO Blog": {
-        "url": "https://yoast.com/seo-blog/",
+    "lifeedited.com": {
+        "url": "https://lifeedited.com/",
         "steps": [
             {
-                "xpath": "//input[@id='email']",
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@id='_form_44_submit']",
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
                 "action": "click"
             }
         ]
     },
-    "Etsy January Newsletter": {
-        "url": "https://www.etsy.com/market/january_newsletter",
+    "boyersfood.com": {
+        "url": "https://boyersfood.com/",
         "steps": [
             {
-                "xpath": "//input[@id='email-list-signup-email-input']",
+                "xpath": "//input[@id=\"mlemail\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//button[@class='wt-btn wt-input-btn-group__btn']",
+                "xpath": "//input[@id=\"submitemail\"]",
                 "action": "click"
             }
         ]
     },
-    "Beats by Dre Newsletter": {
-        "url": "https://www.beatsbydre.com/",
+    "sharehold.co newsletter": {
+        "url": "https://sharehold.co/newsletter",
         "steps": [
             {
-                "xpath": "//input[@id='newsletter-email-b14ec348-aa45-3e85-8748-7779d207ac43']",
+                "xpath": "//input[@id=\"email-yui_3_17_2_1_1673304730309_33285-field\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//span[@class='b-touch-area']",
-                "action": "click"
-            },
-            {
-                "xpath": "//button[normalize-space()='Sign Up']",
+                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "James Clear Newsletter": {
-        "url": "https://jamesclear.com/newsletter",
+    "thisistrue.com": {
+        "url": "https://thisistrue.com/",
         "steps": [
             {
-                "xpath": "//input[@placeholder='Email address']",
+                "xpath": "//input[@id=\"awf_field-118346873\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//span[normalize-space()='Try It']",
+                "xpath": "//input[@name=\"submit\"]",
                 "action": "click"
             }
         ]
     },
-    "Demdaco Newsletter": {
-        "url": "https://www.demdaco.com/",
+    "remoteok.io": {
+        "url": "https://remoteok.io/",
         "steps": [
             {
-                "xpath": "//input[@id='SubmitFooter']",
+                "xpath": "//input[@placeholder=\"Type your email...\"]",
                 "action": "send_keys",
                 "value": "email"
             },
             {
-                "xpath": "//input[@name='submit1']",
+                "xpath": "//button[@id=\"premium-popup-close\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "francetvinfo.fr": {
+        "url": "https://francetvinfo.fr/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"footer-classic__nl-footer__input\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@aria-label=\"S'inscrire à la newsletter Toute l'actu dès 7h30 sur franceinfo\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "healthline.com newsletter-signup": {
+        "url": "https://healthline.com/newsletter-signup",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "zalando.fr zalando-newsletter": {
+        "url": "https://zalando.fr/zalando-newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-input\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "ma.iherb.com": {
+        "url": "https://ma.iherb.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//a[normalize-space()=\"Sign up\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "politico.com": {
+        "url": "https://politico.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"subscribeEmail\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "brainpickings.org": {
+        "url": "https://brainpickings.org/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "netted.net": {
+        "url": "https://netted.net/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"inlinenewsletterEmail\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "the-pastry-box-project.net": {
+        "url": "https://the-pastry-box-project.net/",
+        "steps": [
+            {
+                "xpath": "//button[normalize-space()=\"Accept\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@name=\"EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "timelesspearl.com": {
+        "url": "https://timelesspearl.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email_016JB91TTR00000000001Z6M45\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@aria-label=\"Close dialog\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "stinehome.com": {
+        "url": "https://stinehome.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"hpEmailSignUp\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[normalize-space()=\"SUBSCRIBE\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "greatist.com newsletter": {
+        "url": "https://greatist.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Enter your email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "fs.blog ty": {
+        "url": "https://fs.blog/ty",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email_address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "pitchbook.com subscribe": {
+        "url": "https://pitchbook.com/subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"Email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"submit-btn\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "palmbeachpost.com": {
+        "url": "https://palmbeachpost.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@aria-label=\"Submit to sign up for newsletter\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "lifeedited.com newsletter": {
+        "url": "https://lifeedited.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "newsletter.healthline.com newsletter-signup": {
+        "url": "https://newsletter.healthline.com/newsletter-signup?hide=wellness-wire",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "latimes.com newsletters essential-california": {
+        "url": "https://latimes.com/newsletters/essential-california",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-input-element-0000019a-020a-d712-a3fe-93fb5ad00013\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "iphonelife.com dailytips dailytip-simplified.php": {
+        "url": "https://iphonelife.com/dailytips/dailytip-simplified.php?o_v=simplified",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"submit_btn\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "bonworth.com": {
+        "url": "https://bonworth.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "uxdesignweekly.com": {
+        "url": "https://uxdesignweekly.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "travelground.com": {
+        "url": "https://travelground.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"homepage-newsletter-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"js-newsletter-preferences-submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "dealimpact.com": {
+        "url": "https://dealimpact.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"NewsletterForm--sections--18129820221762__footer\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"Subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "tasteofhome.com": {
+        "url": "https://tasteofhome.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-footer\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"subscribe-footer\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "brixton.com": {
+        "url": "https://brixton.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email_01KSR4Z9VDBJX0E5TN45ECBFQR\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[normalize-space()=\"SIGN UP\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "sorrelli.com": {
+        "url": "https://sorrelli.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email_016JB91TTR000000000037HP8G\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[normalize-space()=\"JOIN\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "jeffbullas.com social-contests": {
+        "url": "https://jeffbullas.com/social-contests",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"inf_field_Email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "blogdumoderateur.com": {
+        "url": "https://blogdumoderateur.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"address-home\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@aria-label=\"S'inscrire\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "theskimm.com": {
+        "url": "https://theskimm.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "readthisokay.com": {
+        "url": "https://readthisokay.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "hiten.com": {
+        "url": "https://hiten.com/",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Enter your email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "thedailybeast.com newsletters": {
+        "url": "https://thedailybeast.com/newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Email Address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@aria-label=\"Subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "goldsilver.com": {
+        "url": "https://goldsilver.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-114f5ef3-e879-4b08-97ab-136892ad1144\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "everydayhealth.com newsletter-subscriptions signup": {
+        "url": "https://everydayhealth.com/newsletter-subscriptions/signup?newsletterId=51",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email-1\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "cheddar.com need2know": {
+        "url": "https://cheddar.com/need2know",
+        "steps": [
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "propublica.org forms thankyou": {
+        "url": "https://propublica.org/forms/thankyou",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"newsletter-signup-email-1\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "managingeditor.substack.com": {
+        "url": "https://managingeditor.substack.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "workbench.substack.com": {
+        "url": "https://workbench.substack.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "thehustle.co": {
+        "url": "https://thehustle.co/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"subscription-email-address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "thestoryoftelling.com newsletter-subscribe": {
+        "url": "https://thestoryoftelling.com/newsletter-subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"signup_email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"commit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "chalkbeat.org newsletters": {
+        "url": "https://chalkbeat.org/newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "qz.com emails space-business": {
+        "url": "https://qz.com/emails/space-business",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Enter email address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "technologyreview.com newsletter-preferences": {
+        "url": "https://technologyreview.com/newsletter-preferences",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//a[@id=\"newsletter-prefs-input_subscriber-only-external-link\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "flowingdata.us2.list-manage.com subscribe": {
+        "url": "https://flowingdata.us2.list-manage.com/subscribe?u=f538bce868aac1144d248c0bc&id=71ef3cfa3a",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"MERGE0\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "qz.com emails quartz-obsession": {
+        "url": "https://qz.com/emails/quartz-obsession/2172832/inflation",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Enter email address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "tasteofhome.com newsletter": {
+        "url": "https://tasteofhome.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-footer\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"subscribe-footer\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "news.futureparty.com": {
+        "url": "https://news.futureparty.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "geekout.mattnavarra.com": {
+        "url": "https://geekout.mattnavarra.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "futuresocial.beehiiv.com": {
+        "url": "https://futuresocial.beehiiv.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "everydayhealth.com": {
+        "url": "https://everydayhealth.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email-165\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "knowband.com opencart-auto-subscribe": {
+        "url": "https://knowband.com/opencart-auto-subscribe",
+        "steps": [
+            {
+                "xpath": "//a[@id=\"cookie_accept\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@id=\"news-subscribe-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"news-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "wpmail.me": {
+        "url": "https://wpmail.me/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "zapier.com blog best-marketing-newsletters": {
+        "url": "https://zapier.com/blog/best-marketing-newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"SubscriptionForm-14342\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "snacknation.com blog best-email-newsletters": {
+        "url": "https://snacknation.com/blog/best-email-newsletters",
+        "steps": [
+            {
+                "xpath": "//button[@aria-label=\"Got It\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "explodingtopics.com blog business-newsletters": {
+        "url": "https://explodingtopics.com/blog/business-newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"awf_field-113227448\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "failory.com blog business-newsletters": {
+        "url": "https://failory.com/blog/business-newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"Email-Founders-Handbook\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "99signals.com best-business-newsletters": {
+        "url": "https://99signals.com/best-business-newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "importantnotimportant.com": {
+        "url": "https://importantnotimportant.com/",
+        "steps": [
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "swipefiles.com": {
+        "url": "https://swipefiles.com/?rh_partner=f40d34591b",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email_address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "thehellyeahgroup.com thenerdletter": {
+        "url": "https://thehellyeahgroup.com/thenerdletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"yui_3_17_2_1_1780410928386_308\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "marketingexamined.com": {
+        "url": "https://marketingexamined.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-landing-page\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"submit-landing-page\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "theuncontained.com movement": {
+        "url": "https://theuncontained.com/movement",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"Email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"form-button-9bf584d15f8d58babfc4f4af6dc71bc2\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "detailed.com": {
+        "url": "https://detailed.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email_address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "buildingmomentum.io": {
+        "url": "https://buildingmomentum.io/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email_address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "todayifoundout.com index.php daily-knowledge-newsletter": {
+        "url": "https://todayifoundout.com/index.php/daily-knowledge-newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "musically.com the-knowledge": {
+        "url": "https://musically.com/the-knowledge",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"newspack-newsletters-subscribe-block-input-62437-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "marketingbrew.com r": {
+        "url": "https://marketingbrew.com/r?kid=94b733c0",
+        "steps": [
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "ben-evans.com newsletter": {
+        "url": "https://ben-evans.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-yui_3_17_2_1_1752932532913_6838-field\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "hilotutor.com myp.html": {
+        "url": "https://hilotutor.com/myp.html",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "secretnyc.co secret-nyc-newsletter-signup": {
+        "url": "https://secretnyc.co/secret-nyc-newsletter-signup",
+        "steps": [
+            {
+                "xpath": "//button[@id=\"accept-btn\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "avc.com subscribe": {
+        "url": "https://avc.com/subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "richhabits.net": {
+        "url": "https://richhabits.net/",
+        "steps": [
+            {
+                "xpath": "//button[@id=\"cn-accept-cookie\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@id=\"pp-subscribe-form-email-5e7ba0c544b8b\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//a[normalize-space()=\"Sign Up\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "changelog.com news": {
+        "url": "https://changelog.com/news",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "nocsdegree.com": {
+        "url": "https://nocsdegree.com/",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Your email address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "softwareleadweekly.com": {
+        "url": "https://softwareleadweekly.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "pointer.io": {
+        "url": "https://pointer.io/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "pycoders.com": {
+        "url": "https://pycoders.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "programmingdigest.net": {
+        "url": "https://programmingdigest.net/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"subscriber_email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"commit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "gamedevjsweekly.com": {
+        "url": "https://gamedevjsweekly.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"p-h-e\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "pythonweekly.com": {
+        "url": "https://pythonweekly.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "csharpdigest.net": {
+        "url": "https://csharpdigest.net/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"subscriber_email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"commit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "schneier.com crypto-gram subscribe": {
+        "url": "https://schneier.com/crypto-gram/subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "js.libhunt.com newsletter": {
+        "url": "https://js.libhunt.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"newsletter_subscription_email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"commit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "techmanagerweekly.com": {
+        "url": "https://techmanagerweekly.com/",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Your email address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@aria-label=\"Submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "webtoolsweekly.com": {
+        "url": "https://webtoolsweekly.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"field_0\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "typescript-weekly.com": {
+        "url": "https://typescript-weekly.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "reactnative.cc": {
+        "url": "https://reactnative.cc/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "thisweekinreact.com": {
+        "url": "https://thisweekinreact.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email_address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "csslayout.news": {
+        "url": "https://csslayout.news/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"subscribe-home-intro\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "figmalion.com": {
+        "url": "https://figmalion.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "phpweekly.com": {
+        "url": "https://phpweekly.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"submit-beta-email\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "laravel-news.com": {
+        "url": "https://laravel-news.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "haskellweekly.news": {
+        "url": "https://haskellweekly.news/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"subscribe-button\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "lasemanaphp.com": {
+        "url": "https://lasemanaphp.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"your-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "techleaddigest.net": {
+        "url": "https://techleaddigest.net/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"subscriber_email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"commit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "baeldung.com java-web-weekly": {
+        "url": "https://baeldung.com/java-web-weekly",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"fields[email]\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"drip-submit-button\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "umaar.com dev-tips": {
+        "url": "https://umaar.com/dev-tips",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "execsum.co": {
+        "url": "https://execsum.co/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "tker.co": {
+        "url": "https://tker.co/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "humbledollar.com": {
+        "url": "https://humbledollar.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"form_email_2\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "mythofmoney.substack.com": {
+        "url": "https://mythofmoney.substack.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "modernhealthcare.com": {
+        "url": "https://modernhealthcare.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"_r_1_\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "workweek.com brand hospitalogy": {
+        "url": "https://workweek.com/brand/hospitalogy",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"input_9_1\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"gform_submit_button_9\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "heydesigner.com": {
+        "url": "https://heydesigner.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "designmodo.com subscribe": {
+        "url": "https://designmodo.com/subscribe",
+        "steps": [
+            {
+                "xpath": "//button[@aria-label=\"Accept All\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@name=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "bizcommunity.com Signup.aspx": {
+        "url": "https://bizcommunity.com/Signup.aspx",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"xEmailAddress\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"xSubmit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "gmail.us12.list-manage.com subscribe": {
+        "url": "https://gmail.us12.list-manage.com/subscribe?id=a6be842d9c&u=c6ed84a27c3902c387edc73bf",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"MERGE0\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "pleaseadvise.io referral": {
+        "url": "https://pleaseadvise.io/referral?id=NDJmM2ZjM2Y1Yg%3D%3D",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "lifehacker.com newsletter": {
+        "url": "https://lifehacker.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "kwmc.org.uk projects theknowledge": {
+        "url": "https://kwmc.org.uk/projects/theknowledge",
+        "steps": [
+            {
+                "xpath": "//button[@id=\"cn-accept-cookie\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "read.first1000.co": {
+        "url": "https://read.first1000.co/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "b2bbite.substack.com": {
+        "url": "https://b2bbite.substack.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "thehustle.co (2)": {
+        "url": "https://thehustle.co/?ref=2c9b035516",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"subscription-email-address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "mindmeld.substack.com": {
+        "url": "https://mindmeld.substack.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "orientaltrading.com h3-email-sign-up.fltr": {
+        "url": "https://orientaltrading.com/h3-email-sign-up.fltr",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-sign-up\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "nbcdfw.com newsletters": {
+        "url": "https://nbcdfw.com/newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "link.today.com join 5ci": {
+        "url": "https://link.today.com/join/5ci/stuff-we-love-signup",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"submit-btn\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "link.today.com join 5ci (2)": {
+        "url": "https://link.today.com/join/5ci/this-is-today-signup",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"submit-btn\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "link.today.com join 5ci (3)": {
+        "url": "https://link.today.com/join/5ci/start-today-signup",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"submit-btn\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "link.today.com join 5ci (4)": {
+        "url": "https://link.today.com/join/5ci/on-the-show-signup",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"submit-btn\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "link.today.com join 5ci (5)": {
+        "url": "https://link.today.com/join/5ci/food-signup",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"submit-btn\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "link.today.com join 5ci (6)": {
+        "url": "https://link.today.com/join/5ci/parents-signup",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"submit-btn\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "link.today.com join 5ci (7)": {
+        "url": "https://link.today.com/join/5ci/readwithjenna",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"submit-btn\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "link.today.com join 5ci (8)": {
+        "url": "https://link.today.com/join/5ci/special-updates-signup",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"submit-btn\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "utexas.us5.list-manage.com subscribe": {
+        "url": "https://utexas.us5.list-manage.com/subscribe?u=6f1ce5deb46f0a82cbfe46510&id=eb7b6eb02f",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"MERGE0\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "mailchi.mp 8ddb186c4295 weeklyrewind": {
+        "url": "https://mailchi.mp/8ddb186c4295/weeklyrewind",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mc-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "mailchi.mp dailytexanonline.com tailgatingwithtexas": {
+        "url": "https://mailchi.mp/dailytexanonline.com/tailgatingwithtexas",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mc-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "stanforddaily.com email-digests": {
+        "url": "https://stanforddaily.com/email-digests",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "wweek.com newsletters": {
+        "url": "https://wweek.com/newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"mce-EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "dealstreetasia.com newsletters": {
+        "url": "https://dealstreetasia.com/newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"formEmail\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "milkroad.com subscribe": {
+        "url": "https://milkroad.com/subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@placeholder=\"Add your email address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "stockhead.com.au subscribe": {
+        "url": "https://stockhead.com.au/subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"input_1_2\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"gform_submit_button_1\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "thedailyworld.com newsletters": {
+        "url": "https://thedailyworld.com/newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"subscribe\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "nhs.org 2022-daily-newsletters": {
+        "url": "https://nhs.org/2022-daily-newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"form-field-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "lp.shrm.org preferences.html": {
+        "url": "https://lp.shrm.org/preferences.html",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"Email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "tearsheet.co newsletters": {
+        "url": "https://tearsheet.co/newsletters",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"EMAIL\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"sign_up_submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "moz.com moztop10": {
+        "url": "https://moz.com/moztop10",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email-379ffa8c-772e-4b7b-9c22-47d60e0db419\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "moneyminiblog.com productivity free-newsletters": {
+        "url": "https://moneyminiblog.com/productivity/free-newsletters",
+        "steps": [
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@name=\"fields[email]\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "wehotimes.com newsletter": {
+        "url": "https://wehotimes.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"tnp-5\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "gustave-et-rosalie.com inscription": {
+        "url": "https://gustave-et-rosalie.com/inscription",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "semplice.com": {
+        "url": "https://semplice.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "webdesignerdepot.com category news": {
+        "url": "https://webdesignerdepot.com/category/news",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"emailyard-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"emailyard-subscribe-button\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "npr.org newsletter news": {
+        "url": "https://npr.org/newsletter/news",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"subscriber-email-input\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "shein.com user auth": {
+        "url": "https://shein.com/user/auth/login",
+        "steps": [
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@placeholder=\"Your Email Address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@aria-label=\"Categories\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "medicalnewstoday.com newsletter": {
+        "url": "https://medicalnewstoday.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "creatorscience.com": {
+        "url": "https://creatorscience.com/?ref=buffer.com",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email_address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "nybooks.com newsletter": {
+        "url": "https://nybooks.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@id=\"input_14_2\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"gform_submit_button_14\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "thetilt.com": {
+        "url": "https://thetilt.com/",
+        "steps": [
+            {
+                "xpath": "//input[@name=\"email_address\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "every.to": {
+        "url": "https://every.to/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"footer-email-field\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"open-drawer\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "hrdive.com signup": {
+        "url": "https://hrdive.com/signup?signup_location=footer-list&signup_path=%2Fsearch%2F",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "moderncto.io newsletter": {
+        "url": "https://moderncto.io/newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"field_701dk\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "smash.vc startup-newsletter": {
+        "url": "https://smash.vc/startup-newsletter",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"form-field-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "css-tricks.com": {
+        "url": "https://css-tricks.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"input_3_1\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@id=\"gform_submit_button_3\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "hackingui.com": {
+        "url": "https://hackingui.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"form-field-email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"newsletter-btn\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "yoast.com newsletter": {
+        "url": "https://yoast.com/newsletter",
+        "steps": [
+            {
+                "xpath": "//button[@id=\"onetrust-accept-btn-handler\"]",
+                "action": "click",
+                "delay": 1
+            },
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"_form_44_submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "hermoney.com subscribe": {
+        "url": "https://hermoney.com/subscribe",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"email\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//button[@id=\"_form_20_submit\"]",
+                "action": "click"
+            }
+        ]
+    },
+    "kevinmd.com": {
+        "url": "https://kevinmd.com/",
+        "steps": [
+            {
+                "xpath": "//input[@id=\"awf_field-115365883\"]",
+                "action": "send_keys",
+                "value": "email"
+            },
+            {
+                "xpath": "//input[@name=\"submit\"]",
                 "action": "click"
             }
         ]
