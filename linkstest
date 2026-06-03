@@ -1472,20 +1472,6 @@
             }
         ]
     },
-    "ROKA Newsletter": {
-        "url": "https://www.roka.com/",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder='Email (Required)']",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//input[@value='Submit']",
-                "action": "click"
-            }
-        ]
-    },
     "Curzio Research Wall Street Unplugged": {
         "url": "https://www.curzioresearch.com/wall-street-unplugged/?utm_source=HMFIC&utm_medium=2111_wsu_lg_evergreen_googletextad&utm_campaign=WSU-LG-Evergreen&utm_term=ad&utm_content=google&sl=2111_wsu_lg_evergreen_googletextad&gc_id=15233402810&h_ad_id=657069729258&gclid=EAIaIQobChMI-Pf_wo7l_gIVhdd3Ch33ygL2EAAYASAAEgKsvvD_BwE",
         "steps": [
@@ -2312,20 +2298,6 @@
             }
         ]
     },
-    "qz.com emails unga-2022": {
-        "url": "https://qz.com/emails/unga-2022",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder=\"Enter email address\"]",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@type=\"submit\"]",
-                "action": "click"
-            }
-        ]
-    },
     "roundup.getdbt.com": {
         "url": "https://roundup.getdbt.com/",
         "steps": [
@@ -3139,20 +3111,6 @@
             }
         ]
     },
-    "brixton.com": {
-        "url": "https://brixton.com/",
-        "steps": [
-            {
-                "xpath": "//input[@id=\"email_01KSR4Z9VDBJX0E5TN45ECBFQR\"]",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@type=\"button\"]",
-                "action": "click"
-            }
-        ]
-    },
     "sorrelli.com": {
         "url": "https://sorrelli.com/",
         "steps": [
@@ -3349,20 +3307,6 @@
             }
         ]
     },
-    "qz.com emails space-business": {
-        "url": "https://qz.com/emails/space-business",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder=\"Enter email address\"]",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@type=\"submit\"]",
-                "action": "click"
-            }
-        ]
-    },
     "technologyreview.com newsletter-preferences": {
         "url": "https://technologyreview.com/newsletter-preferences",
         "steps": [
@@ -3387,20 +3331,6 @@
             },
             {
                 "xpath": "//input[@name=\"submit\"]",
-                "action": "click"
-            }
-        ]
-    },
-    "qz.com emails quartz-obsession": {
-        "url": "https://qz.com/emails/quartz-obsession/2172832/inflation",
-        "steps": [
-            {
-                "xpath": "//input[@placeholder=\"Enter email address\"]",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
@@ -3498,7 +3428,7 @@
         "url": "https://zapier.com/blog/best-marketing-newsletters",
         "steps": [
             {
-                "xpath": "//input[@id=\"SubscriptionForm-42764\"]",
+                "xpath": "//input[@id=\"SubscriptionForm-1349\"]",
                 "action": "send_keys",
                 "value": "email"
             },
@@ -3607,20 +3537,6 @@
             },
             {
                 "xpath": "//input[@id=\"mc-embedded-subscribe\"]",
-                "action": "click"
-            }
-        ]
-    },
-    "musically.com the-knowledge": {
-        "url": "https://musically.com/the-knowledge",
-        "steps": [
-            {
-                "xpath": "//input[@id=\"newspack-newsletters-subscribe-block-input-62437-email\"]",
-                "action": "send_keys",
-                "value": "email"
-            },
-            {
-                "xpath": "//button[@type=\"submit\"]",
                 "action": "click"
             }
         ]
