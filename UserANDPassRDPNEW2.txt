@@ -2,5 +2,5 @@ admin:202
 hazem:202
 atef:55
 k:44
-Mizan:11
+mizan:11
 abdo:1997
