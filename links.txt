@@ -174,7 +174,7 @@
             {
                 "xpath": "//input[@placeholder='Your name']",
                 "action": "send_keys",
-                "value": "Hazem"
+                "value": "negaf"
             },
             {
                 "xpath": "/html/body/div[5]/div/div/article/section/div/div/button",
@@ -450,12 +450,12 @@
             {
                 "xpath": "//input[@id='firstname']",
                 "action": "send_keys",
-                "value": "Hazem"
+                "value": "merion"
             },
             {
                 "xpath": "//input[@id='lastname']",
                 "action": "send_keys",
-                "value": "Khaled"
+                "value": "joxkgb"
             },
             {
                 "xpath": "//input[@id='email']",
@@ -571,7 +571,7 @@
             {
                 "xpath": "//input[@id='fieldName']",
                 "action": "send_keys",
-                "value": "hazem"
+                "value": "mdkow"
             },
             {
                 "xpath": "//input[@id='fieldEmail']",
@@ -608,12 +608,12 @@
             {
                 "xpath": "//input[@id='wpforms-2536-field_1']",
                 "action": "send_keys",
-                "value": "hazem"
+                "value": "nkgpoz"
             },
             {
                 "xpath": "//input[@id='wpforms-2536-field_4']",
                 "action": "send_keys",
-                "value": "khaled"
+                "value": "joxkgb"
             },
             {
                 "xpath": "//input[@id='wpforms-2536-field_2']",
@@ -991,7 +991,7 @@
             {
                 "xpath": "//input[@id='firstname-5d699731-b31f-49fe-8175-8cf86d909e18']",
                 "action": "send_keys",
-                "value": "HAZEM"
+                "value": "gaxcg"
             },
             {
                 "xpath": "//input[@id='email-5d699731-b31f-49fe-8175-8cf86d909e18']",
@@ -1294,12 +1294,12 @@
             {
                 "xpath": "//input[@name='firstName']",
                 "action": "send_keys",
-                "value": "hazem"
+                "value": "sekgpo"
             },
             {
                 "xpath": "//input[@name='lastName']",
                 "action": "send_keys",
-                "value": "khaled"
+                "value": "joxkgb"
             },
             {
                 "xpath": "//input[@name='email']",
@@ -1439,7 +1439,7 @@
             {
                 "xpath": "//input[@id='fieldName']",
                 "action": "send_keys",
-                "value": "hazem"
+                "value": "kkfopg"
             },
             {
                 "xpath": "//input[@id='fieldEmail']",
